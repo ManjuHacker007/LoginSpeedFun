@@ -21,7 +21,7 @@ document.getElementById("submitBtn").addEventListener("click", () => {
 
   const resultText = document.getElementById("result");
 
-  if (wpm > 40) {
+  if (wpm > 20) {
     resultText.textContent = "Password incorrect";
     resultText.style.color = "red";
   } else {
